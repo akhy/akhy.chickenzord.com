@@ -19,12 +19,11 @@ url = "/blog/"
 [params]
 include_rss            = true
 i18n_flags             = true
-faviconfile            = "favicon.png"
+faviconfile            = "img/rooster.svg"
+avatar                 = "img/rooster.svg"
 author                 = "akhy"
 selfintro              = "a chicken writes blog"
 description            = "why did a chicken write a blog?"
-gravatar               = "681280de6b57448131d02a76953fcec4"
-lang                   = "en"
 github                 = "//github.com/akhy"
 linkedin               = "//linkedin.com/in/akhyar"
 twitter                = "//twitter.com/akhy"
