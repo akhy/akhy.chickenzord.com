@@ -5,6 +5,7 @@ description = "why did a chicken write a blog?"
 canonifyurls = true
 defaultContentLanguage = "en"
 languageCode = "en-us"
+googleAnalytics = "UA-117694463-1"
 
 [[menu.main]]
 name = "About"
