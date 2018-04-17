@@ -11,14 +11,14 @@ identifier = "about"
 url = "/about/"
 
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 identifier = "blog"
 url = "/blog/"
 
 [params]
 include_rss            = true
 i18n_flags             = true
-faviconfile            = "img/favicon.png"
+faviconfile            = "favicon.png"
 author                 = "@akhy"
 selfintro              = "why did a chicken write a blog?"
 description            = "a chicken writes blog"
