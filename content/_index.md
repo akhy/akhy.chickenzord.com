@@ -1,7 +1,6 @@
 ---
 title: "Welcome"
 date: 2018-04-17T17:05:42+07:00
-draft: true
 ---
 
 ## Good news, Everyone... I have a new blog!
