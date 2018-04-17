@@ -1,0 +1,4 @@
+section.header .avatar {
+	border-radius: unset !important;
+	box-shadow: unset !important;
+}

@@ -1,0 +1,32 @@
+baseURL = "https://akhy.chickenzord.com/"
+theme = "cocoa"
+title = "akhy"
+description = "a chicken writes blog"
+languageCode = "en-us"
+canonifyurls = true
+
+[[menu.main]]
+name = "About"
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Blog"
+identifier = "blog"
+url = "/blog/"
+
+[params]
+include_rss            = true
+i18n_flags             = true
+author                 = "@akhy"
+selfintro              = "why did a chicken write a blog?"
+description            = "a chicken writes blog"
+gravatar               = "681280de6b57448131d02a76953fcec4"
+lang                   = "en"
+github                 = "//github.com/akhy"
+linkedin               = "//linkedin.com/in/akhyar"
+twitter                = "//twitter.com/akhy"
+mastodon               = "//mastodon.social/@akhy"
+cachebuster            = true
+highlightjs            = true
+extracssfiles          = [ "/css/override.css" ]
