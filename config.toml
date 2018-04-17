@@ -1,9 +1,10 @@
 baseURL = "https://akhy.chickenzord.com/"
 theme = "cocoa"
-title = "akhy"
-description = "a chicken writes blog"
-languageCode = "en-us"
+title = "a chicken writes blog"
+description = "why did a chicken write a blog?"
 canonifyurls = true
+defaultContentLanguage = "en"
+languageCode = "en-us"
 
 [[menu.main]]
 name = "About"
@@ -19,9 +20,9 @@ url = "/blog/"
 include_rss            = true
 i18n_flags             = true
 faviconfile            = "favicon.png"
-author                 = "@akhy"
-selfintro              = "why did a chicken write a blog?"
-description            = "a chicken writes blog"
+author                 = "akhy"
+selfintro              = "a chicken writes blog"
+description            = "why did a chicken write a blog?"
 gravatar               = "681280de6b57448131d02a76953fcec4"
 lang                   = "en"
 github                 = "//github.com/akhy"
@@ -31,3 +32,11 @@ mastodon               = "//mastodon.social/@akhy"
 cachebuster            = true
 highlightjs            = true
 extracssfiles          = [ "/css/override.css" ]
+
+[languages.en]
+[languages.id]
+title = "seekor ayam menulis blog"
+description = "kenapa ayam menulis blog?"
+[languages.id.params]
+selfintro = "seekor ayam menulis blog"
+description = "kenapa ayam menulis blog?"
