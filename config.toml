@@ -1,42 +1,78 @@
 baseURL = "https://akhy.chickenzord.com/"
-theme = "cocoa"
+theme = "minimo"
 title = "a chicken writes blog"
 description = "why did the chicken writes a blog?"
 canonifyurls = true
 defaultContentLanguage = "en"
-languageCode = "en-us"
 googleAnalytics = "UA-117694463-1"
+enableRobotsTXT = true
+pygmentsCodefences = true
+enableEmoji = true
+
+
+# BLOG CORE
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
 
 [[menu.main]]
-name = "About"
-identifier = "about"
-url = "/about/"
+name = "Home"
+identifier = "home"
+url = "/"
+weight = -999
 
 [[menu.main]]
 name = "Posts"
-identifier = "blog"
-url = "/blog/"
+identifier = "posts"
+url = "/posts/"
 
-[params]
-include_rss            = true
-i18n_flags             = true
-faviconfile            = "img/rooster.svg"
-avatar                 = "img/rooster.svg"
-author                 = "akhy"
-selfintro              = "a chicken writes blog"
-description            = "why did the chicken writes a blog?"
-github                 = "//github.com/akhy"
-linkedin               = "//linkedin.com/in/akhyar"
-twitter                = "//twitter.com/akhy"
-mastodon               = "//mastodon.social/@akhy"
-cachebuster            = true
-highlightjs            = true
-extracssfiles          = [ "/css/override.css" ]
+[params.assets]
+favicon = "img/rooster.svg"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+
+[params.settings]
+dateFormat = "2006-01-02"
+listDateFormat = "2006-01-02"
+archiveDateFormat = "Jan 02"
+showReadingTime = true
+taxonomyCloudShuffle = true
+accentColor = "#00cdff"
+
+
+# SIDEBAR and WIDGETS
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
+footer = ["social_menu"]
+
+[params.copyright]
+prefix = ""
+holder = "akhy"
+startYear = "2018"
+suffix = ""
+
+# SOCIAL
+
+[params.social]
+github = "akhy"
+linkedin = "akhyar"
+twitter = "akhy"
+
+[params.opengraph.twitter]
+page = "akhy"
+
+
+# TRANSLATIONS
 
 [languages.en]
 [languages.id]
-title = "seekor ayam menulis blog"
-description = "kenapa ayam menulis blog?"
-[languages.id.params]
-selfintro = "seekor ayam menulis blog"
-description = "kenapa ayam menulis blog?"

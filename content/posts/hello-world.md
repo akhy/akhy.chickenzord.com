@@ -1,6 +1,9 @@
 ---
 title: "Hello World!"
 date: 2018-04-16T11:15:35+07:00
+categories: ["random"]
+tags: ["code"]
+authors: ["akhy"]
 ---
 
 Just a first post placeholder.

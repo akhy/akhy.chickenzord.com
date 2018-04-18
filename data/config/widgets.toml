@@ -1,0 +1,7 @@
+[about]
+logo = "img/rooster.svg"
+title = "@akhy"
+description = "Pecking on the keyboard, sometimes accidentally writes some code."
+
+[taxonomy_cloud]
+taxonomy = "categories"
