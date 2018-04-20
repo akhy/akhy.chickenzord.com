@@ -63,7 +63,9 @@ Every pushes to the repo will trigger both environments to re-generate blog from
 
 I run Caddy servers (yes, not just one) with above configuration behind reverse proxy running on Docker. I won't explain it in details, but the general structure goes like this:
 
+{{% center %}}
 ![Final Setup](/img/hugosetup.svg)
+{{% /center %}}
 
 That's it.
 
