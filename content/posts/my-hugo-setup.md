@@ -73,3 +73,11 @@ That's it.
 I'm still hacking around to add [Isso commenting system](https://posativ.org/isso/) to this blog. It's a self-hosted alternative to Disqus or IntenseDebate, so I'll write another blog post about getting it works.
 
 Cheers!!
+
+---
+
+Related links
+
+- https://zeta.pm/blog/building-this-blog/ (I take the idea from here)
+- https://github.com/chickenzord/docker-caddy-hugo
+- https://hub.docker.com/r/chickenzord/caddy-hugo/
