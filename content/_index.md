@@ -5,6 +5,8 @@ cover:
   image: img/goodnews.jpg
   style: wide
   caption: '*"Good news Everyone... I have a new blog!"* &mdash; Albert Einstein <small>(Inventor of Lightbulbs)</small>'
+images:
+- img/rooster.svg
 ---
 
 &nbsp;
