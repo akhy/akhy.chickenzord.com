@@ -39,7 +39,7 @@ customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 
 [params.settings]
-dateFormat = "2006-01-02"
+dateFormat = "Monday, 2 January 2006"
 listDateFormat = "2006-01-02"
 archiveDateFormat = "Jan 02"
 showReadingTime = true
