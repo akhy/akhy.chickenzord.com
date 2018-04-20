@@ -1,7 +1,6 @@
 ---
 title: "My Hugo Setup"
 date: 2018-04-20T13:10:41+07:00
-authors: ["akhy"]
 tags: ["hugo", "deployment"]
 cover: 
   image: https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png

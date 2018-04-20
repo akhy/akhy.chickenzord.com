@@ -16,7 +16,6 @@ enableEmoji = true
 description = "why did the chicken writes a blog?"
 
 [taxonomies]
-author = "authors"
 series = "series"
 tag = "tags"
 
