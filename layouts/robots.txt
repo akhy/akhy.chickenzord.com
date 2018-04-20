@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /img
+Sitemap: {{ "/sitemap.xml" | absURL }}
+
+User-agent: Googlebot-Image
+Disallow: /
