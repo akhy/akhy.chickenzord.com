@@ -1,6 +1,6 @@
 baseURL = "https://akhy.chickenzord.com/"
 theme = "minimo"
-title = "a chicken writes blog"
+title = "chicken.write(blog)"
 description = "why did the chicken writes a blog?"
 canonifyurls = true
 defaultContentLanguage = "en"
@@ -11,6 +11,9 @@ enableEmoji = true
 
 
 # BLOG CORE
+
+[params.info]
+description = "why did the chicken writes a blog?"
 
 [taxonomies]
 author = "authors"
