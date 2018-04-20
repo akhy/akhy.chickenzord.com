@@ -17,7 +17,6 @@ description = "why did the chicken writes a blog?"
 
 [taxonomies]
 author = "authors"
-category = "categories"
 series = "series"
 tag = "tags"
 

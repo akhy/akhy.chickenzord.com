@@ -4,4 +4,5 @@ title = "@akhy"
 description = "Pecking on the keyboard, sometimes accidentally writes some code."
 
 [taxonomy_cloud]
-taxonomy = "categories"
+taxonomy = "tags"
+shuffle = false
