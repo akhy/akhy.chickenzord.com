@@ -47,6 +47,14 @@ taxonomyCloudShuffle = true
 accentColor = "#00cdff"
 
 
+# COMMENTING
+
+[params.comments]
+enable = false
+provider = "isso"
+issoURL = "//isso.chickenzord.com/akhy.chickenzord.com"
+
+
 # SIDEBAR and WIDGETS
 [params.sidebar]
 enable = true
@@ -61,6 +69,7 @@ prefix = ""
 holder = "akhy"
 startYear = "2018"
 suffix = ""
+
 
 # SOCIAL
 

@@ -1,0 +1,25 @@
+{{- $config := .Site.Params.comments -}}
+
+{{- $enabledGlobally := $config.enable -}}
+{{- $disabledGlobally := ( not $enabledGlobally ) -}}
+
+{{ $optOut := ( eq .Params.comments false ) }}
+{{ $optIn := .Params.comments }}
+
+{{- $enableConditionOne := ( and $disabledGlobally $optIn ) -}}
+{{- $enableConditionTwo := ( and $enabledGlobally ( not $optOut ) ) -}}
+
+
+{{- if ( or $enableConditionOne $enableConditionTwo ) -}}
+
+{{- if $config.provider -}}
+<section id='comments' class='comments'>
+  <div class='container sep-before'>
+    <div class='comments-area'>
+      {{ partial (printf "comments/%s" $config.provider) . }}
+    </div>
+  </div>
+</section>
+{{- end -}}
+
+{{- end -}}
